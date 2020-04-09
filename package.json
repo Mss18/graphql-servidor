@@ -1,0 +1,30 @@
+{
+  "name": "graphql-servidor",
+  "version": "1.0.0",
+  "description": "GraphQL Servidor",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js --exec babel-node -e js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mss18/graphql-servidor.git"
+  },
+  "author": "Martin Serantes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mss18/graphql-servidor/issues"
+  },
+  "homepage": "https://github.com/Mss18/graphql-servidor#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^15.0.0",
+    "nodemon": "^2.0.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
